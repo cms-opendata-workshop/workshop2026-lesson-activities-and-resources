@@ -1,19 +1,21 @@
 ---
-title: "Using Markdown"
+title: "Outreach and educational activities and resources"
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- What level are these activities for?
+- What skills are needed for these activities?
+- How can I deploy these activities for my students?
+- Can I or my students go further than what is listed here?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Good questions
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
