@@ -113,9 +113,35 @@ The particle discovery lab uses CMS dimuon data from 2016 published via the CERN
 
 Workshop presentation slides: (will be added later)
 
+
+## Maching Learning in Particle Physics
+
+*Building a Simplified Particle Transformer for CMS Jet Classification*
+
+::::::::::::::::::::::::::::::::::::: testimonial
+- Intended audience
+    - XXX
+- Learning goals
+    - XXX
+    - XXX
+- Necessary skills/background knowledge
+    - XXX
+- Length of time to complete
+    - XXX
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+Brief description here.
+
+* [Lesson webpage](https://cms-opendata-workshop.github.io/workshop2026-lesson-minipart/index.html)
+* [Google Slides](https://docs.google.com/presentation/d/1VpzyGB5RC7H1AIULSVKxc82TsBFVA6G-iJT_djkx3nY/edit?usp=sharing)
+
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- There are lots of good activities
+- There are lots of good activities that you can use as-is
+- All of these lessons allow you to make a copy and edit to work best for your class
+- The facilitators are here to help you learn to use these materials
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
