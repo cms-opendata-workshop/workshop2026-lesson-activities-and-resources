@@ -36,11 +36,32 @@ exercises: 2
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-PLACEHOLDER FOR BRIEF OVERVIEW OF ACTIVITIY
+In this activity, students will read in data representing the energy and momentum of pairs of muons, recorded in collisions
+at the LHC with the CMS detector. Students will calculate the mass of these muons using both *classical physics*
+and *special relativity*.
 
-PLACEHOLDER FOR SLIDES 
+This activity has been used with freshman in an introductory programming class and an upper-level particle physics course. 
+Introductory python and exposure to the `matplotlib` and `pandas` libraries are sufficient. 
 
-PLACEHOLDER FOR LINK TO ACTIVITIES
+Supplemental material is also provided for instructors who want to go further with their students. 
+
+* [Particle Physics Playground](https://sites.google.com/siena.edu/particle-physics-playground/home)
+* [Google Slides](https://docs.google.com/presentation/d/1JKwlRqiKnupkw9iir4d1YCL87ligSZz6STW_GQl73UI/edit?usp=sharing) Introduction to activity
+* Colab notebooks
+    * [Student version]
+    * [Instructor's version]
+
+### Supplemental materials
+
+* Four-vector practice
+    * [Google Doc of 4-vectors] To handout to students
+    * [Colab notebook to generate 4-vectors] *This is very much a work in-progress so it might not be obvious how to use this. Let's make it better!*
+* Particle lifetime activity / homework (python/Colab)
+    * [Student version]
+    * [Instructor's version]
+* Sample lesson plan and supplemental slides
+    * [Lesson plan]
+    * [Slides]
 
 
 ## Quark Workbench
