@@ -279,7 +279,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Outreach and educational activities and resources</h1>
-        <p>Last updated on 2026-07-27 |
+        <p>Last updated on 2026-07-28 |
 
         <a href="https://github.com/cms-opendata-workshop/workbench-template-md/edit/main/episodes/01-activities.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -331,15 +331,16 @@
 </ul></li>
 <li>Learning goals
 <ul><li>Python reinforcement</li>
+<li>Relativistic kinematics reinforcement</li>
 </ul></li>
 <li>Necessary skills/background knowledge
 <ul><li>Basic python</li>
 <li>
 <code>pandas</code> (for some exercises)</li>
-<li>Relativistic kinematics</li>
+<li>Some awareness of relativistic kinematics</li>
 </ul></li>
 <li>Length of time to complete
-<ul><li>45-120 minutes (suggested HW question)</li>
+<ul><li>45-120 minutes (suggested HW assignment)</li>
 </ul></li>
 </ul></div>
 </div>
@@ -360,25 +361,47 @@ Physics Playground</a></li>
 <a href="https://docs.google.com/presentation/d/1JKwlRqiKnupkw9iir4d1YCL87ligSZz6STW_GQl73UI/edit?usp=sharing" class="external-link">Google
 Slides</a> Introduction to activity</li>
 <li>Colab notebooks
-<ul><li>[Student version]</li>
-<li>[Instructor’s version]</li>
+<ul><li><a href="https://colab.research.google.com/drive/1rzqu-NmFA-Pwc93fnLy5u4sNnvxzKyBS?usp=sharing" class="external-link">Student
+version</a></li>
+<li><a href="https://colab.research.google.com/drive/1izsL2Ep-BD9PlTrJdWhtuwwMKkw-bVa6?usp=sharing" class="external-link">Instructor’s
+version</a></li>
 </ul></li>
 </ul><div class="section level3">
 <h3 id="supplemental-materials">Supplemental materials<a class="anchor" aria-label="anchor" href="#supplemental-materials"></a></h3>
+<p>Depending on the level of students that you are working with and how
+much scaffolding you want to provide, the following materials may be
+helpful.</p>
 <ul><li>Four-vector practice
-<ul><li>[Google Doc of 4-vectors] To handout to students</li>
-<li>[Colab notebook to generate 4-vectors] <em>This is very much a work
+<ul><li>
+<a href="https://docs.google.com/document/d/1YsZYdswG5fe5CD3HxG10iVfTvxjSx5TJaB5TT0D8iiA/edit?usp=sharing" class="external-link">Google
+Doc of 4-vectors</a> This document contains randomly generated 4-vectors
+that either have the same mass or come from the same parent particle.
+They can be printed out, cut up into strips, and passed out to students
+to calculate and compare.</li>
+<li>
+<a href="https://colab.research.google.com/drive/10MNXFV7NTrCEULInNjBAxKf7gR0pGscp?usp=sharing" class="external-link">Colab
+notebook to generate 4-vectors</a> <em>This is very much a work
 in-progress so it might not be obvious how to use this. Let’s make it
 better!</em>
 </li>
 </ul></li>
-<li>Particle lifetime activity / homework (python/Colab)
-<ul><li>[Student version]</li>
-<li>[Instructor’s version]</li>
+<li>Particle lifetime activity / homework (python/Colab). This
+assignment asks students to look up the lifetimes of particles and
+calculate how far they move in the lab for different momenta. Students
+also make a plot of lifetime for particles, color-coded by the
+interaction that mediates their dominant decays.
+<ul><li><a href="https://colab.research.google.com/drive/1RNMyr5sQxgfDx3QgEm-cDXuyD1jo4Wvu?usp=sharing" class="external-link">Student
+version</a></li>
+<li><a href="https://colab.research.google.com/drive/1B0rxM07FsWBpjH8cAoRYAVff2iRD80Ls?usp=sharing" class="external-link">Instructor’s
+version</a></li>
 </ul></li>
-<li>Sample lesson plan and supplemental slides
-<ul><li>[Lesson plan]</li>
-<li>[Slides]</li>
+<li>Sample lesson plan and supplemental slides.
+<ul><li>
+<a href="https://docs.google.com/document/d/1vJMvjxbZXjVtIfBKvo4N-33aOl1eADVV9jy7lwRCsS4/edit?usp=sharing" class="external-link">Lesson
+plan</a> Developed by Katie Salvatore.</li>
+<li>
+<a href="https://docs.google.com/presentation/d/11gguILlKBtRCSh9jgkhrBNCc0lOzYsK-JCr5iD0gz6c/edit?usp=sharing" class="external-link">Slides
+(minimalist approach)</a> Developed by Katie Salvatore.</li>
 </ul></li>
 </ul></div>
 </section><section><h2 class="section-heading" id="quark-workbench">Quark Workbench<a class="anchor" aria-label="anchor" href="#quark-workbench"></a></h2>
@@ -496,22 +519,41 @@ Classification</em></p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul><li>Intended audience
-<ul><li>XXX</li>
+<ul><li>Undergraduate students</li>
+<li>Advanced high schoolers with some Python and linear algebra exposure
+can follow, but this is scoped as undergrad-level given the transformer
+architecture content</li>
 </ul></li>
 <li>Learning goals
-<ul><li>XXX</li>
-<li>XXX</li>
+<ul><li>Understand what a jet is and how a Higgs boson decaying to bb or cc
+shows up in CMS data</li>
+<li>Learn how a transformer works from scratch (embeddings,
+self-attention, multi-head attention)</li>
+<li>Build and train a simplified Particle Transformer (MiniParT) end to
+end in PyTorch on Google Colab</li>
+<li>Evaluate a trained model using ROC curves and AUC, and see where the
+physics makes classification genuinely hard</li>
 </ul></li>
 <li>Necessary skills/background knowledge
-<ul><li>XXX</li>
+<ul><li>Basic Python (variables, functions, loops)</li>
+<li>General familiarity with the idea of machine learning, no prior
+neural network or transformer experience needed</li>
+<li>A Google account for Colab</li>
 </ul></li>
 <li>Length of time to complete
-<ul><li>XXX</li>
+<ul><li>2 to 3 hours</li>
 </ul></li>
 </ul></div>
 </div>
 </div>
-<p>Brief description here.</p>
+<p>This lesson builds, from scratch, a small transformer model,
+MiniParT, in PyTorch, that classifies pairs of jets from CMS Open Data
+as coming from a Higgs boson decaying to two bottom quarks (Hbb), a
+Higgs boson decaying to two charm quarks (Hcc), or ordinary QCD
+background. MiniParT is a scaled down version of the Particle
+Transformer used in real CMS physics analyses, small enough to train in
+minutes on a free Colab session, but built on the same architecture
+ideas as the full size model.</p>
 <ul><li><a href="https://cms-opendata-workshop.github.io/workshop2026-lesson-minipart/index.html" class="external-link">Lesson
 webpage</a></li>
 <li><a href="https://docs.google.com/presentation/d/1VpzyGB5RC7H1AIULSVKxc82TsBFVA6G-iJT_djkx3nY/edit?usp=sharing" class="external-link">Google
@@ -588,7 +630,7 @@ any links that you are not going to use.
   "url": "https://cms-opendata-workshop.github.io/workbench-template-md/instructor/01-activities.html",
   "identifier": "https://cms-opendata-workshop.github.io/workbench-template-md/instructor/01-activities.html",
   "dateCreated": "2026-07-28",
-  "dateModified": "2026-07-27",
+  "dateModified": "2026-07-28",
   "datePublished": "2026-07-28"
 }
 
