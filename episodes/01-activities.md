@@ -97,15 +97,15 @@ and they can see how electric charge and color change from particle to antiparti
 Once they build some mesons or baryons they can see what electric charges are possible
 for those particles.
 
-QuarkNet resource webpage: [https://quarknet.org/data-portfolio/activity/quark-workbench](https://quarknet.org/data-portfolio/activity/quark-workbench). 
-Here you can find guides for using this activity and printable files (paper or 3D!). 
-The 3D printer files were used by my student to cut pieces out of translucent acrylic and engrave the information onto each piece using a GlowForge.
+* QuarkNet resource webpage: [https://quarknet.org/data-portfolio/activity/quark-workbench](https://quarknet.org/data-portfolio/activity/quark-workbench). 
+   * Here you can find guides for using this activity and printable files (paper or 3D!).
+   * HTML interaction version: [https://web.quarknet.org/activities/qwbench/puzzle5.html](https://web.quarknet.org/activities/qwbench/puzzle5.html)
 
-HTML interaction version: [https://web.quarknet.org/activities/qwbench/puzzle5.html](https://web.quarknet.org/activities/qwbench/puzzle5.html)
+* GlowForge files for acrylic/wood physical puzzle: [https://drive.google.com/file/d/1IJTlWQNk3tPKv2NrN39k3LNHqyGndIDy/](https://drive.google.com/file/d/1IJTlWQNk3tPKv2NrN39k3LNHqyGndIDy/view?usp=sharing)
+   * My student used the QuarkNet 3D printer STL files to produce these versions for GlowForge. The letters/info are set to "score" mode and the borders to "engrave" mode.
 
-Google Slides version: [https://docs.google.com/presentation/d/1dKGYb5wK5yDHbDe5X5NCt5p7CO3viMl7QsqrXbmDE20/](https://docs.google.com/presentation/d/1dKGYb5wK5yDHbDe5X5NCt5p7CO3viMl7QsqrXbmDE20/edit?usp=sharing)
-For remote participation or extra credit homework assignments students can copy/paste/rotate/move digital puzzle pieces.
-Make your own copy of this presentation to try it out. 
+* Google Slides version: [https://docs.google.com/presentation/d/1dKGYb5wK5yDHbDe5X5NCt5p7CO3viMl7QsqrXbmDE20/](https://docs.google.com/presentation/d/1dKGYb5wK5yDHbDe5X5NCt5p7CO3viMl7QsqrXbmDE20/edit?usp=sharing)
+   * For remote participation or extra credit homework assignments students can copy/paste/rotate/move digital puzzle pieces.
 
 Workshop presentation slides: [https://indico.cern.ch/event/1672496/contributions/7205877/attachments/3320507/5945531/ODWS2026_QuarkWorkbench.pdf](https://indico.cern.ch/event/1672496/contributions/7205877/attachments/3320507/5945531/ODWS2026_QuarkWorkbench.pdf)
 These slides show the background information, workbench prompts, and learning questions that I give my students in class. 
