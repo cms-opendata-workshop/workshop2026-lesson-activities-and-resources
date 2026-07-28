@@ -27,12 +27,13 @@ exercises: 2
     - Undergrad
 - Learning goals
     - Python reinforcement
+    - Relativistic kinematics reinforcement
 - Necessary skills/background knowledge
     - Basic python
     - `pandas` (for some exercises)
-    - Relativistic kinematics
+    - Some awareness of relativistic kinematics
 - Length of time to complete
-    - 45-120 minutes (suggested HW question)
+    - 45-120 minutes (suggested HW assignment)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -48,20 +49,23 @@ Supplemental material is also provided for instructors who want to go further wi
 * [Particle Physics Playground](https://sites.google.com/siena.edu/particle-physics-playground/home)
 * [Google Slides](https://docs.google.com/presentation/d/1JKwlRqiKnupkw9iir4d1YCL87ligSZz6STW_GQl73UI/edit?usp=sharing) Introduction to activity
 * Colab notebooks
-    * [Student version]
-    * [Instructor's version]
+    * [Student version](https://colab.research.google.com/drive/1rzqu-NmFA-Pwc93fnLy5u4sNnvxzKyBS?usp=sharing)
+    * [Instructor's version](https://colab.research.google.com/drive/1izsL2Ep-BD9PlTrJdWhtuwwMKkw-bVa6?usp=sharing)
 
 ### Supplemental materials
 
+Depending on the level of students that you are working with and how much scaffolding you want to provide, 
+the following materials may be helpful.
+
 * Four-vector practice
-    * [Google Doc of 4-vectors] To handout to students
-    * [Colab notebook to generate 4-vectors] *This is very much a work in-progress so it might not be obvious how to use this. Let's make it better!*
-* Particle lifetime activity / homework (python/Colab)
-    * [Student version]
-    * [Instructor's version]
-* Sample lesson plan and supplemental slides
-    * [Lesson plan]
-    * [Slides]
+    * [Google Doc of 4-vectors](https://docs.google.com/document/d/1YsZYdswG5fe5CD3HxG10iVfTvxjSx5TJaB5TT0D8iiA/edit?usp=sharing) This document contains randomly generated 4-vectors that either have the same mass or come from the same parent particle. They can be printed out, cut up into strips, and passed out to students to calculate and compare. 
+    * [Colab notebook to generate 4-vectors](https://colab.research.google.com/drive/10MNXFV7NTrCEULInNjBAxKf7gR0pGscp?usp=sharing) *This is very much a work in-progress so it might not be obvious how to use this. Let's make it better!*
+* Particle lifetime activity / homework (python/Colab). This assignment asks students to look up the lifetimes of particles and calculate how far they move in the lab for different momenta. Students also make a plot of lifetime for particles, color-coded by the interaction that mediates their dominant decays.
+    * [Student version](https://colab.research.google.com/drive/1RNMyr5sQxgfDx3QgEm-cDXuyD1jo4Wvu?usp=sharing)
+    * [Instructor's version](https://colab.research.google.com/drive/1B0rxM07FsWBpjH8cAoRYAVff2iRD80Ls?usp=sharing)
+* Sample lesson plan and supplemental slides. 
+    * [Lesson plan](https://docs.google.com/document/d/1vJMvjxbZXjVtIfBKvo4N-33aOl1eADVV9jy7lwRCsS4/edit?usp=sharing) Developed by Katie Salvatore.
+    * [Slides (minimalist approach)](https://docs.google.com/presentation/d/11gguILlKBtRCSh9jgkhrBNCc0lOzYsK-JCr5iD0gz6c/edit?usp=sharing) Developed by Katie Salvatore.
 
 
 ## Quark Workbench
@@ -141,18 +145,23 @@ Workshop presentation slides: (will be added later)
 
 ::::::::::::::::::::::::::::::::::::: testimonial
 - Intended audience
-    - XXX
+    - Undergraduate students
+    - Advanced high schoolers with some Python and linear algebra exposure can follow, but this is scoped as undergrad-level given the transformer architecture content
 - Learning goals
-    - XXX
-    - XXX
+    - Understand what a jet is and how a Higgs boson decaying to bb or cc shows up in CMS data
+    - Learn how a transformer works from scratch (embeddings, self-attention, multi-head attention)
+    - Build and train a simplified Particle Transformer (MiniParT) end to end in PyTorch on Google Colab
+    - Evaluate a trained model using ROC curves and AUC, and see where the physics makes classification genuinely hard
 - Necessary skills/background knowledge
-    - XXX
+    - Basic Python (variables, functions, loops)
+    - General familiarity with the idea of machine learning, no prior neural network or transformer experience needed
+    - A Google account for Colab
 - Length of time to complete
-    - XXX
+    - 2 to 3 hours
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-Brief description here.
+This lesson builds, from scratch, a small transformer model, MiniParT, in PyTorch, that classifies pairs of jets from CMS Open Data as coming from a Higgs boson decaying to two bottom quarks (Hbb), a Higgs boson decaying to two charm quarks (Hcc), or ordinary QCD background. MiniParT is a scaled down version of the Particle Transformer used in real CMS physics analyses, small enough to train in minutes on a free Colab session, but built on the same architecture ideas as the full size model.
 
 * [Lesson webpage](https://cms-opendata-workshop.github.io/workshop2026-lesson-minipart/index.html)
 * [Google Slides](https://docs.google.com/presentation/d/1VpzyGB5RC7H1AIULSVKxc82TsBFVA6G-iJT_djkx3nY/edit?usp=sharing)
