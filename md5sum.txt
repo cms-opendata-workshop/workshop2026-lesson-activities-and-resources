@@ -8,5 +8,5 @@
 "episodes/01-activities.md" "14465288daefdd7246058b957ce133ee" "site/built/01-activities.md" "2026-07-27"
 "instructors/instructor-notes.md" "cae72b6712578d74a49fea7513099f8c" "site/built/instructor-notes.md" "2024-06-19"
 "learners/reference.md" "1c7cc4e229304d9806a13f69ca1b8ba4" "site/built/reference.md" "2024-06-19"
-"learners/setup.md" "62794ed1dd893ed01970ddcf1c8a556f" "site/built/setup.md" "2026-07-27"
+"learners/setup.md" "91e4e3bb70be4722de91a6255c20ba4c" "site/built/setup.md" "2026-07-28"
 "profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2024-06-19"
