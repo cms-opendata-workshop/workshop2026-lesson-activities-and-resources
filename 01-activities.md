@@ -97,14 +97,18 @@ and they can see how electric charge and color change from particle to antiparti
 Once they build some mesons or baryons they can see what electric charges are possible
 for those particles.
 
-QuarkNet resource webpage: [https://quarknet.org/data-portfolio/activity/quark-workbench](https://quarknet.org/data-portfolio/activity/quark-workbench). 
-Here you can find guides for using this activity and printable files (paper or 3D!).
+* QuarkNet resource webpage: [https://quarknet.org/data-portfolio/activity/quark-workbench](https://quarknet.org/data-portfolio/activity/quark-workbench). 
+   * Here you can find guides for using this activity and printable files (paper or 3D!).
+   * HTML interaction version: [https://web.quarknet.org/activities/qwbench/puzzle5.html](https://web.quarknet.org/activities/qwbench/puzzle5.html)
 
-Google Slides version: [https://docs.google.com/presentation/d/1dKGYb5wK5yDHbDe5X5NCt5p7CO3viMl7QsqrXbmDE20/](https://docs.google.com/presentation/d/1dKGYb5wK5yDHbDe5X5NCt5p7CO3viMl7QsqrXbmDE20/edit?usp=sharing)
-For remote participation (or just added flexibility!) students can copy/paste/rotate/move digital puzzle pieces.
-Make your own copy of this presentation to try it out. 
+* GlowForge files for acrylic/wood physical puzzle: [https://drive.google.com/file/d/1IJTlWQNk3tPKv2NrN39k3LNHqyGndIDy/](https://drive.google.com/file/d/1IJTlWQNk3tPKv2NrN39k3LNHqyGndIDy/view?usp=sharing)
+   * My student used the QuarkNet 3D printer STL files to produce these versions for GlowForge. The letters/info are set to "score" mode and the borders to "engrave" mode.
 
-Workshop presentation slides: (will be added later)
+* Google Slides version: [https://docs.google.com/presentation/d/1dKGYb5wK5yDHbDe5X5NCt5p7CO3viMl7QsqrXbmDE20/](https://docs.google.com/presentation/d/1dKGYb5wK5yDHbDe5X5NCt5p7CO3viMl7QsqrXbmDE20/edit?usp=sharing)
+   * For remote participation or extra credit homework assignments students can copy/paste/rotate/move digital puzzle pieces.
+
+Workshop presentation slides: [https://indico.cern.ch/event/1672496/contributions/7205877/attachments/3320507/5945531/ODWS2026_QuarkWorkbench.pdf](https://indico.cern.ch/event/1672496/contributions/7205877/attachments/3320507/5945531/ODWS2026_QuarkWorkbench.pdf)
+These slides show the background information, workbench prompts, and learning questions that I give my students in class. 
 
 ## Particle Discovery Lab
 
@@ -135,8 +139,11 @@ The particle discovery lab uses CMS dimuon data from 2016 published via the CERN
 * CERN Open Data Portal activity webpage: [https://opendata.cern.ch/record/49](https://opendata.cern.ch/record/49)
 * Student-facing activity webpage: [https://quarknet.org/data-portfolio/activity/quark-workbench](https://bethel-physics.github.io/ParticleDiscoveryLab/).
 * Instructor's github branch: [https://github.com/bethel-physics/ParticleDiscoveryLab/tree/instructors](https://github.com/bethel-physics/ParticleDiscoveryLab/tree/instructors)
+* Colab notebooks:
+   * Students: [https://colab.research.google.com/drive/1aK6INkWrF_6mlDEYU4RxMYMhYm-8O7MF](https://colab.research.google.com/drive/1aK6INkWrF_6mlDEYU4RxMYMhYm-8O7MF?usp=sharing)
+   * Instructors: [https://colab.research.google.com/drive/1O99rvGitbZ8RV6QZzvrsx8a3mL_Wu-wm](https://colab.research.google.com/drive/1O99rvGitbZ8RV6QZzvrsx8a3mL_Wu-wm?usp=sharing)
 
-Workshop presentation slides: (will be added later)
+Workshop presentation slides: [https://indico.cern.ch/event/1672496/contributions/7205877/attachments/3320507/5945532/ODWS2026_ParticleDiscoveryLab.pdf](https://indico.cern.ch/event/1672496/contributions/7205877/attachments/3320507/5945532/ODWS2026_ParticleDiscoveryLab.pdf)
 
 
 ## Maching Learning in Particle Physics
